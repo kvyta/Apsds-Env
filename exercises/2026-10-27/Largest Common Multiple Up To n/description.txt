@@ -1,0 +1,20 @@
+<h3>Given (in the grey header)</h3>
+<p><code>a</code>, <code>b</code>: positive integers (1 &le; a, b &le; 50)<br><code>n</code>: an integer (1 &le; n &le; 10&nbsp;000)</p>
+
+<h3>Task</h3>
+<p><code>print()</code> the <strong>largest</strong> integer that is at most <code>n</code> and divisible by <strong>both</strong> <code>a</code> and <code>b</code>. If there is no such positive integer, print <code>-1</code>.</p>
+
+<h3>Sample</h3>
+<div class="samples">
+  <div>
+    <strong>Header</strong>
+    <pre>a = 4
+b = 6
+n = 50</pre>
+  </div>
+  <div>
+    <strong>Output</strong>
+    <pre>48</pre>
+  </div>
+</div>
+<p class="muted small">48 is divisible by 4 and by 6, and 49 and 50 are not.<br>Hint: loop downward from n, or use <code>%</code> and an <code>if</code>.</p>

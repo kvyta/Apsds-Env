@@ -1,0 +1,18 @@
+<h3>Given (in the grey header)</h3>
+<p><code>n</code>: an integer (1 &le; n &le; 2000)</p>
+
+<h3>Task</h3>
+<p><code>print()</code> the sum of all integers from <code>n</code> up to <code>n&sup2;</code>, <strong>including both ends</strong>.</p>
+
+<h3>Sample</h3>
+<div class="samples">
+  <div>
+    <strong>Header</strong>
+    <pre>n = 3</pre>
+  </div>
+  <div>
+    <strong>Output</strong>
+    <pre>42</pre>
+  </div>
+</div>
+<p class="muted small">3 + 4 + 5 + 6 + 7 + 8 + 9 = 42.<br>When n = 1 the range is just 1.</p>

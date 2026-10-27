@@ -1,0 +1,19 @@
+<p>Bessie gives you a number. Mildred claims she can get a <strong>larger</strong> number by multiplying Bessie's number by 2.</p>
+<h3>Given (in the grey header)</h3>
+<p><code>x</code>: Bessie's number (&minus;1000 &le; x &le; 1000). It can be negative or zero.</p>
+
+<h3>Task</h3>
+<p><code>print()</code> <code>Mildred</code> if Mildred's number (<code>2 * x</code>) is strictly larger than Bessie's, otherwise print <code>Bessie</code>.</p>
+
+<h3>Sample</h3>
+<div class="samples">
+  <div>
+    <strong>Header</strong>
+    <pre>x = 5</pre>
+  </div>
+  <div>
+    <strong>Output</strong>
+    <pre>Mildred</pre>
+  </div>
+</div>
+<p class="muted small">10 is larger than 5.<br>Think about negative numbers and zero before you submit.</p>

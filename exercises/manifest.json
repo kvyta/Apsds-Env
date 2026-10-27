@@ -1,15 +1,16 @@
 {
   "dates": [
     {
-      "name": "2026-10-26",
+      "name": "2026-10-27",
       "exercises": [
-        "Balanced Brackets"
-      ]
-    },
-    {
-      "name": "2026-10-19",
-      "exercises": [
-        "Max Subarray Sum"
+        "Bessie vs Mildred",
+        "Largest Common Multiple Up To n",
+        "Leap Year",
+        "Max Subarray Sum",
+        "Multiples of 3 or 5",
+        "Sum From n to n Squared",
+        "Sum of Even Numbers",
+        "Valid Triangle"
       ]
     }
   ]

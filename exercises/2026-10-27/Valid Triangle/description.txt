@@ -1,0 +1,20 @@
+<h3>Given (in the grey header)</h3>
+<p><code>a</code>, <code>b</code>, <code>c</code>: positive integers (1 &le; a, b, c &le; 1000), the three side lengths</p>
+
+<h3>Task</h3>
+<p><code>print()</code> <code>Valid</code> if a triangle with these side lengths exists, otherwise <code>Invalid</code>. Each side must be <strong>strictly</strong> shorter than the sum of the other two.</p>
+
+<h3>Sample</h3>
+<div class="samples">
+  <div>
+    <strong>Header</strong>
+    <pre>a = 3
+b = 4
+c = 8</pre>
+  </div>
+  <div>
+    <strong>Output</strong>
+    <pre>Invalid</pre>
+  </div>
+</div>
+<p class="muted small">3 + 4 = 7 is not greater than 8.<br>A &ldquo;flat&rdquo; triangle such as 1, 2, 3 counts as Invalid.</p>

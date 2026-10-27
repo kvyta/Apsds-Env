@@ -1,0 +1,18 @@
+<h3>Given (in the grey header)</h3>
+<p><code>n</code>: an integer (1 &le; n &le; 100&nbsp;000)</p>
+
+<h3>Task</h3>
+<p><code>print()</code> the sum of the first <code>n</code> positive even integers (2, 4, 6, &hellip;).</p>
+
+<h3>Sample</h3>
+<div class="samples">
+  <div>
+    <strong>Header</strong>
+    <pre>n = 4</pre>
+  </div>
+  <div>
+    <strong>Output</strong>
+    <pre>20</pre>
+  </div>
+</div>
+<p class="muted small">2 + 4 + 6 + 8 = 20.</p>

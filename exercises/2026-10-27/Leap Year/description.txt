@@ -1,0 +1,18 @@
+<h3>Given (in the grey header)</h3>
+<p><code>year</code>: an integer (1583 &le; year &le; 2999)</p>
+
+<h3>Task</h3>
+<p><code>print()</code> <code>Leap</code> if the year is a leap year, otherwise <code>Common</code>.<br>A year is a leap year if it is divisible by 4, <strong>except</strong> years divisible by 100, which are leap years only if they are also divisible by 400.</p>
+
+<h3>Sample</h3>
+<div class="samples">
+  <div>
+    <strong>Header</strong>
+    <pre>year = 1900</pre>
+  </div>
+  <div>
+    <strong>Output</strong>
+    <pre>Common</pre>
+  </div>
+</div>
+<p class="muted small">1900 is divisible by 100 but not by 400.<br>Good practice for combining conditions with <code>and</code>, <code>or</code> and <code>not</code>.</p>
