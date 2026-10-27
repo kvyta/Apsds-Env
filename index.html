@@ -11,7 +11,7 @@
     var t = null;
     try { t = localStorage.getItem('apsds:theme'); } catch (e) {}
     if (t !== 'light' && t !== 'dark') {
-      t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      t = 'light';
     }
     document.documentElement.setAttribute('data-theme', t);
     var l = null;
@@ -19,7 +19,7 @@
     document.documentElement.setAttribute('data-layout', l === 'two' ? 'two' : 'one');
   })();
 </script>
-<link rel="stylesheet" href="assets/style.css?v=16">
+<link rel="stylesheet" href="assets/style.css?v=17">
 </head>
 <body>
 
@@ -108,7 +108,7 @@
   </article>
 </main>
 
-<script src="assets/editor.js?v=16"></script>
-<script src="assets/app.js?v=16"></script>
+<script src="assets/editor.js?v=17"></script>
+<script src="assets/app.js?v=17"></script>
 </body>
 </html>
