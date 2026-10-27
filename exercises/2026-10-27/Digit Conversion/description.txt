@@ -1,0 +1,21 @@
+<h3>Given (in the grey header)</h3>
+<p><code>n</code>: a non-negative integer (0 &le; n &le; 10<sup>9</sup>), written in ordinary base 10</p>
+
+<h3>Task</h3>
+<p><code>print()</code> <code>n</code> written in <strong>base 8</strong> (octal), using only the digits 0&ndash;7 and no leading zeros. For <code>n = 0</code>, print <code>0</code>.</p>
+
+<h3>Sample</h3>
+<div class="samples">
+  <div>
+    <strong>Header</strong>
+    <pre>n = 100</pre>
+  </div>
+  <div>
+    <strong>Output</strong>
+    <pre>144</pre>
+  </div>
+</div>
+<p class="muted small">100 = 1&middot;64 + 4&middot;8 + 4&middot;1, so it is 144 in base 8.</p>
+
+<h3>Notes</h3>
+<p>Try repeatedly dividing by 8 and collecting the remainders (<code>//</code> and <code>%</code>). Python's built-in <code>oct()</code> or <code>format(n, "o")</code> would make this trivial, so try it by hand first.</p>
