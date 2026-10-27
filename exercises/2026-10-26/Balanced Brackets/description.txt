@@ -1,0 +1,28 @@
+<p>A string made only of the characters <code>(</code> <code>)</code> <code>[</code> <code>]</code> <code>{</code> <code>}</code> is <strong>balanced</strong> if every opening bracket is closed by the matching bracket type, in the correct order. The empty string is balanced.</p>
+
+<h3>Given (in the grey header)</h3>
+<p><code>s</code>: a string of brackets, with length between 0 and 100&nbsp;000. Long strings are built with expressions like <code>"(" * 5000</code> so the header stays readable.</p>
+
+<h3>Task</h3>
+<p><code>print()</code> <code>YES</code> if <code>s</code> is balanced and <code>NO</code> otherwise.</p>
+
+<h3>Samples</h3>
+<div class="samples">
+  <div>
+    <strong>Header</strong>
+    <pre>s = "([]){}"</pre>
+  </div>
+  <div>
+    <strong>Output</strong>
+    <pre>YES</pre>
+  </div>
+  <div>
+    <pre>s = "([)]"</pre>
+  </div>
+  <div>
+    <pre>NO</pre>
+  </div>
+</div>
+
+<h3>Notes</h3>
+<p>Watch the edge cases: the empty string, and strings that close more brackets than they open.</p>

@@ -1,0 +1,16 @@
+{
+  "dates": [
+    {
+      "name": "2026-10-26",
+      "exercises": [
+        "Balanced Brackets"
+      ]
+    },
+    {
+      "name": "2026-10-19",
+      "exercises": [
+        "Max Subarray Sum"
+      ]
+    }
+  ]
+}
